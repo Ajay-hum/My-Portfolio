@@ -1,0 +1,19 @@
+.skills {
+  margin: 3rem;
+  background: rgb(21, 21, 21);
+  box-shadow: 0 2px 8px rgba(66, 53, 53, 0.45);
+}
+.skills h2 {
+  color: white;
+}
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
+.skills ul li {
+  background: black;
+  color: blue;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 4px;
+}/*# sourceMappingURL=skills.css.map */

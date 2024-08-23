@@ -1,0 +1,12 @@
+.experience {
+  margin: 3rem;
+  background: rgb(21, 21, 21);
+  box-shadow: 0 2px 8px rgba(66, 53, 53, 0.45);
+}
+.experience h2 {
+  color: white;
+}
+.experience p {
+  line-height: 1.6;
+  margin-top: 10px;
+}/*# sourceMappingURL=experience.css.map */

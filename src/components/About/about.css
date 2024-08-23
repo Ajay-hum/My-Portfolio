@@ -1,0 +1,15 @@
+.about {
+  margin: 3rem;
+  background: rgb(21, 21, 21);
+  box-shadow: 0 2px 8px rgba(66, 53, 53, 0.45);
+}
+.about h2 {
+  color: white;
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+.about p {
+  color: white;
+  line-height: 1.6;
+  margin-top: 10px;
+}/*# sourceMappingURL=about.css.map */

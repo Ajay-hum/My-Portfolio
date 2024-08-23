@@ -1,0 +1,23 @@
+// src/components/Skills.scss
+.skills {
+    margin: 3rem;
+    background: rgb(21, 21, 21);
+    box-shadow: 0 2px 8px rgba(66, 53, 53, 0.45);
+
+    h2{
+        color: white;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+            background: black;
+            color: blue;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 4px;
+        }
+    }
+}

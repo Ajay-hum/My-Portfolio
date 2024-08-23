@@ -1,0 +1,39 @@
+.home {
+  background-color: #1a1a1a;
+  color: #f5f5f5;
+  text-align: center;
+  padding: 50px 20px;
+}
+.home .profile-pic {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.home .name {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 0;
+}
+.home .title {
+  font-size: 1rem;
+  margin: 10px 0 30px;
+  display: flex;
+}
+.home .contact-button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+.home .contact-button:hover {
+  background-color: rgb(35, 34, 34);
+}/*# sourceMappingURL=home.css.map */

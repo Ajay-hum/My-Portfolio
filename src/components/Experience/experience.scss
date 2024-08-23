@@ -1,0 +1,15 @@
+// src/components/Experience.scss
+.experience {
+    margin: 3rem;
+    background: rgb(21, 21, 21);
+    box-shadow: 0 2px 8px rgba(66, 53, 53, 0.45);
+
+    h2{
+        color: white;
+    }
+
+    p {
+        line-height: 1.6;
+        margin-top: 10px;
+    }
+}
