@@ -6,8 +6,8 @@ const Skills = () => {
 
   return (
     <section className='skills container'>
-      <h2>My Specializations include:</h2>
-      <ul>
+      <h2 data-aos="fade-left" data-aos-duration="1000">My Specializations include:</h2>
+      <ul data-aos="fade-left" data-aos-duration="2000">
         {skills.map((skill, index) => (
           <li key={index}>{skill}</li>
         ))}

@@ -11,14 +11,26 @@ import './styles.css';
 
 const App = () => {
   return (
-    <div>
-      <Home />
-      <About />
-      <Projects />
-      <Skills />
-      <Experience />
-      <Contact />
-    </div>
+    <>
+      <div id='home'>
+        <Home />
+      </div>
+      <div id='about'>
+        <About />
+      </div>
+      <div id='projects'>
+        <Projects />
+      </div>
+      <div id='skills'>
+        <Skills />
+      </div>
+      <div id='experience'>
+        <Experience />
+      </div>
+      <div id='contact'>
+        <Contact />
+      </div>
+    </>
   );
 };
 

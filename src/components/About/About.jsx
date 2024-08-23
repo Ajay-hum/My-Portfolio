@@ -3,7 +3,7 @@ import './about.css'
 
 const About = () => {
   return (
-    <section className='about section'>
+    <section data-aos="fade-up" data-aos-duration="3000" className='about section'>
       <h2>Hello, I'm Justus, a Data and Machine Learning Specialist and a Front-end developer based in Nigeria.</h2>
       <p>
       Passionate about transforming data into actionable insights and creating engaging web applications. 

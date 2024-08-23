@@ -20,20 +20,26 @@ const Projects = () => {
       description: "This is a web application built using React.js that allows users to browse, search, and purchase books online. The application features a user-friendly interface with various components to enhance the shopping experience.",
       techStack: "React, CSS/Styled components",
       link: "https://ajay-hum.github.io/Online-Bookstore-Website/ "
+    },
+    {
+      title: "Dataset Analysis",
+      description: "Analysis of Five different datasets to provide insights.",
+      techStack: "Python, Data science",
+      link: "https://github.com/Ajay-hum/OIBSIP "
     }
-    // Add more projects here
+
   ];
 
   return (
     <section className='project container'>
       <h2>Latest Work</h2>
-      <div className="project-grid">
+      <div data-aos="fade-left" data-aos-duration="4000" className="project-grid">
         {projectList.map((project, index) => (
           <div key={index} className="project-card">
             <h3>{project.title}</h3>
             <p>{project.description}</p>
             <p><strong>Tech Stack:</strong> {project.techStack}</p>
-            <a href={project.link} target="_blank" rel="noopener noreferrer">View on GitHub</a>
+            <a href={project.link} target="_blank" rel="noopener noreferrer">View Demo</a>
           </div>
         ))}
       </div>

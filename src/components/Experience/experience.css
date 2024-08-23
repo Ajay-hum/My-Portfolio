@@ -5,8 +5,10 @@
 }
 .experience h2 {
   color: white;
+  font-weight: 600;
 }
 .experience p {
   line-height: 1.6;
   margin-top: 10px;
+  color: rgb(162, 160, 160);
 }/*# sourceMappingURL=experience.css.map */

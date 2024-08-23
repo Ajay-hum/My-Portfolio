@@ -8,8 +8,8 @@
   position: absolute;
   top: 20px;
   left: 20px;
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -22,7 +22,6 @@
 .home .title {
   font-size: 1rem;
   margin: 10px 0 30px;
-  display: flex;
 }
 .home .contact-button {
   background-color: black;
@@ -32,6 +31,7 @@
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
+  cursor: pointer;
   transition: background-color 0.3s;
 }
 .home .contact-button:hover {
